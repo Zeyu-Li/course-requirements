@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+\usepackage[left=1in, right=1.0in, top=1.0in, bottom=1.0in]{geometry}
+
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{soul}
+\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+
+% title
+\begin{center}
+    \textbf{SPECIALIZATION PROGRAM (GENERAL)}
+\end{center}
+\textbf{Required Courses}
+% all the required courses
+\begin{center}
+\begin{tabular}{| l | l | }
+  \hline
+ CMPUT 174\qquad\qquad\qquad\qquad \hfill\raisebox{-3px}{\CheckBox[\symbolchoice{check},height=.25in,width=.25in, name=c]{}} & ENGL 1xx* \qquad\qquad\qquad\qquad\qquad\hfill\raisebox{-3px}{\CheckBox[height=.25in,width=.25in, name=d]{}}\\ 
+  \hline
+ CMPUT 175 \hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=a]{}}& ENGL 1xx* \hfill\raisebox{-3px}{\CheckBox[width=0.25in,height=0.25in, name=b]{}}\\
+  \hline
+ CMPUT (one of 201, 204, 229, 272, 291) \hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=1]{}}& MATH 125 \hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=69]{}}\\
+  \hline
+  CMPUT (one of 201, 204, 229, 272, 291) \hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=3]{}}& STAT 141, 151, 235, or 265\hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=ask]{}} \\
+  \hline
+ MATH 117, 134, 144, or 154 \hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=2]{}}& STAT 252, or 266\hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=8]{}}\\
+  \hline
+ MATH 118, 136, 146, or  156\hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=4]{}} & \\
+  \hline
+\end{tabular}
+\end{center}
+
+\noindent No more than *42 (14 courses) at 100-level: \hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=209]{}}\\
+\noindent *Note, ENGL can be 1 ENGL course and 1 WRS course
+
+\noindent At least * 9 must be 300 level or higher in \textit{Science, Arts or any Faculty} \hfill\raisebox{-3px}{\CheckBox[height=0.25in,width=0.25in, name=210]{}}\\
+
+\vspace{-1cm}
+% elective courses
+\begin{center}
+\begin{tabular}{c c c c c}
+*18 CMPUT $\ge300$ & *6 $\ge400$ & *21 Science Options & *12 Arts Options & *30 any Faculty
+\end{tabular}
+\end{center}
+
+\vspace{-1cm}
+
+\begin{center}
+\begin{tabular}{| c | c | c | c | c |}
+\hline
+\TextField[width=1.15in, name=12]{ } & \TextField[width=.9in, name=13]{ } & \TextField[width=1.2in, name=14]{ } & \TextField[width=1.15in, name=15]{ } & \TextField[width=1.15in, name=16]{ } \\
+  \hline
+  \TextField[width=1.15in, name=17]{ } & \TextField[width=.9in, name=18]{ } & \TextField[width=1.2in, name=19]{ } & \TextField[width=1.15in, name=20]{ } & \TextField[width=1.15in, name=21]{ } \\
+  \hline
+  \TextField[width=1.15in, name=22]{ } & - & \TextField[width=1.2in, name=23]{ } & \TextField[width=1.15in, name=24]{ } & \TextField[width=1.15in, name=25]{ } \\
+  \hline
+    \TextField[width=1.15in, name=26]{ } & - & \TextField[width=1.2in, name=27]{ } & \TextField[width=1.15in, name=28]{ } & \TextField[width=1.15in, name=29]{ } \\
+  \hline
+  \TextField[width=1.15in, name=30]{ } & - & \TextField[width=1.2in, name=31]{ } & - & \TextField[width=1.15in, name=32]{ } \\
+  \hline
+  \TextField[width=1.15in, name=33]{ } & - & \TextField[width=1.2in, name=34]{ } & - & \TextField[width=1.15in, name=35]{ } \\
+  \hline
+  - & - & \TextField[width=1.2in, name=36]{ } & - & \TextField[width=1.15in, name=37]{ } \\
+  \hline
+    - & - & - & - & \TextField[width=1.15in, name=38]{ } \\
+  \hline
+    - & - & - & - & \TextField[width=1.15in, name=39]{ } \\
+  \hline
+    - & - & - & - & \TextField[width=1.15in, name=40]{ } \\
+  \hline
+\end{tabular}
+\end{center}
+
+% form must be here so things can be checked off
+\begin{Form}
+\end{Form}
+% other misc stuff
+\noindent \small{GPA $\ge2.3$}\hfill \CheckBox[height=0.25in,width=0.25in, name=gpa]{}
+\thispagestyle{empty}
+
+
+\end{document}
